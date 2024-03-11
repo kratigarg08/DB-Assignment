@@ -1,4 +1,4 @@
-# Question 1:  Explain the relationship between the "Product" and "Product_Category" entities from the above diagram.
+# Question 1:  Explain the relationship between the `Product` and `Product_Category` entities from the above diagram.
 
 A one-to-many relationship exists between the `Product` and `Product_Category` entities. This means:
 
@@ -6,7 +6,7 @@ A one-to-many relationship exists between the `Product` and `Product_Category` e
 - A category can have `many` products.
   A foreign key constraint enforces this relationship. The `Product` table has a column named `category_id` referencing the `primary key` (id) of the `Product_Category` table.
 
-# Question 2: How could you ensure that each product in the "Product" table has a valid category assigned to it?
+# Question 2: How could you ensure that each product in the `Product` table has a valid category assigned to it?
 
 Several methods ensure each product has a valid category assigned:
 
